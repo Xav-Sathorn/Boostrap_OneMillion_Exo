@@ -1,0 +1,87 @@
+/* Vos customisations des classes de Bootstrap */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arvo;
+}
+
+#home{
+    padding-bottom: 50px;
+}
+.jumbotron {
+    background-image: url(../images/hero-image.jpg) ;
+    background-size: cover;
+    color: white;
+}
+
+.massive{
+    color: red;
+}
+
+.exception{
+    font-weight: 1000;
+}
+
+.jumbotron-2{
+    background-color: white;
+}
+
+.arrow{
+    position: relative
+    
+}
+
+.solid-line{
+    border: solid red 1px;
+    justify-content: center;
+    width: 150px;
+}
+#get-involved{
+    background-color: rgba(236, 236, 241, 0.864);
+    padding-top: 50px;
+}
+.card{
+    background-color: rgba(236, 236, 241, 0.864);
+    border:none ;
+}
+.bouton{
+    justify-content: center;
+}
+
+.footer{
+    background-color: rgb(223, 55, 55);
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+#who{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+#back-to-top{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 40px;
+    right: 50px;
+
+    text-decoration: none;
+    text-align: center; line-height: 50px;
+    font-size: 30px;
+}
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
